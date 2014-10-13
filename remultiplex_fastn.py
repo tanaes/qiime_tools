@@ -8,6 +8,7 @@ from cogent.parse.fastq import MinimalFastqParser
 from cogent.parse.fasta import MinimalFastaParser
 
 parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser(description='This script takes a folder of separate fasta/q files and remultiplexes them, adding fake golay12 barcodes and linker primers on to the front. Will try to combine all files in the input directory that end with the file extension specified by the -t/--type option.')
 parser.add_argument("-i","--input_dir", type=str, default="./", help="directory of input fastqs/fastas")
 parser.add_argument("-o","--output_dir", type=str, default="./", help="directory to output files")
 parser.add_argument("-l","--linker", type=str, default="YATGCTGCCTCCCGTAGGAGT", help="linker primer sequence [default = YATGCTGCCTCCCGTAGGAGT]")
