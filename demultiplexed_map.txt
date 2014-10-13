@@ -1,3 +1,0 @@
-#SampleID	BarcodeSequence	LinkerPrimerSequence	Reads	Description
-test1.fastq	TAGACGCCCCCG	YATGCTGCCTCCCGTAGGAGT	7	test1.fastq
-test2.fastq	AGTATCCCCCCT	YATGCTGCCTCCCGTAGGAGT	7	test2.fastq
