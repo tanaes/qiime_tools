@@ -1,0 +1,3 @@
+#SampleID	BarcodeSequence	LinkerPrimerSequence	Reads	Description
+test1.fna	TAGACGCCCCCG	YATGCTGCCTCCCGTAGGAGT	7	test1.fna
+test2.fna	AGTATCCCCCCT	YATGCTGCCTCCCGTAGGAGT	7	test2.fna
